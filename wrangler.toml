@@ -1,0 +1,7 @@
+name = "extrato-relay"
+main = "worker.js"
+compatibility_date = "2024-11-01"
+
+# Sem rotas, sem banco: é só um repasse com CORS.
+[vars]
+ALLOW_ORIGIN = "*"
